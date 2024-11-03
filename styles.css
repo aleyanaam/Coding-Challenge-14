@@ -17,7 +17,7 @@ h1 {
 #ticketContainer {
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Space between ticket items */
+    gap: 15px; 
 }
 
 .ticket {
@@ -37,5 +37,5 @@ h1 {
     color: red;
     text-align: center;
     margin: 20px 0;
-    display: none; /* Hidden by default, shown when there's an error */
+    display: none; 
 }
