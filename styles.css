@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#ticketContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between ticket items */
+}
+
+.ticket {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.ticket:hover {
+    transform: scale(1.02);
+}
+
+#errorMessage {
+    color: red;
+    text-align: center;
+    margin: 20px 0;
+    display: none; /* Hidden by default, shown when there's an error */
+}
